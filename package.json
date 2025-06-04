@@ -1,0 +1,17 @@
+{
+  "name": "discord-gemini-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot powered by Google Gemini AI",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@google/generative-ai": "^0.2.1",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
